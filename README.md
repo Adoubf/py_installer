@@ -7,7 +7,6 @@
 ## ✨ 核心功能
 
   - 🚀 **全球加速**：深度集成 Xget，为系统包、Git 仓库、Pip 包等提供全球 CDN 加速，告别龟速下载。
-  - 📊 **精美 UI**：採用美观的 TUI 介面，支持 Emoji，提供进度条和耗时统计，安装过程不再枯燥。
   - 💡 **双模式安装**：提供两种主流的安装方案，满足不同需求：
       - **UV**：快如闪电的次世代 Python 打包工具，轻量且高效，推荐首选。
       - **Pyenv + Poetry**：经典组合，提供强大的 Python 多版本管理和精细的依赖控制。
@@ -23,17 +22,15 @@
 
 ```bash
 # 使用 curl
-curl -L -o installer.sh "https://gist.github.com/Adoubf/your_gist_id/raw/installer.sh"
+curl -L -o installer.sh "https://github.com/Adoubf/py_installer/releases/download/product/installer_v1.0.sh"
 # 或者使用 wget
-wget -O installer.sh "https://gist.github.com/Adoubf/your_gist_id/raw/installer.sh"
+wget -O installer.sh "https://github.com/Adoubf/py_installer/releases/download/product/installer_v1.0.sh"
 ```
-
-> **📝 注意**：请将上面的 URL 替换为您存放脚本的实际地址。
 
 ### 2\. 授予执行权限
 
 ```bash
-chmod +x coralera_installer.sh
+chmod +x installer.sh
 ```
 
 ### 3\. 运行脚本
@@ -41,7 +38,7 @@ chmod +x coralera_installer.sh
 推荐使用 `sudo` 运行，因为脚本需要权限来安装系统级的编译依赖，并修改 APT 源列表。
 
 ```bash
-sudo ./coralera_installer.sh
+sudo ./installer.sh
 ```
 
 -----
