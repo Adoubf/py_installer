@@ -94,7 +94,7 @@ print_header() {
     print_logo
     
     if [ "$LANGUAGE" = "zh" ]; then
-        echo -e "${CYAN}Python环境安装工具 (v3.6 - Xget 驱动版)${NC}"
+        echo -e "${CYAN}Python环境安装工具${NC}"
         echo "========================================"
         echo
         echo -e "${GREEN}${ROCKET}${NC} 由 Xget 提供全球加速"
@@ -194,11 +194,11 @@ select_install_method() {
 show_python_version_menu() {
     echo -e "${CYAN}请选择要安装的Python版本:${NC}"
     echo
-    echo -e "  ${GREEN}1)${NC} Python 3.12 (最新稳定系列)"
+    echo -e "  ${GREEN}1)${NC} Python 3.13.5 (最新版)"
+    echo -e "  ${GREEN}1)${NC} Python 3.12"
     echo -e "  ${GREEN}2)${NC} Python 3.11"
     echo -e "  ${GREEN}3)${NC} Python 3.10"
     echo -e "  ${GREEN}4)${NC} Python 3.9"
-    echo -e "  ${GREEN}5)${NC} Python 3.8"
     echo -e "  ${GREEN}6)${NC} 自定义版本 ${GEAR}"
     echo -e "  ${GREEN}7)${NC} 返回上一级"
     echo
